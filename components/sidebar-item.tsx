@@ -22,13 +22,14 @@ export const SidebarItem = ({ label, iconSrc, href }: Props) => {
       asChild
     >
       <Link href={href}>
-        <Image
-          src={"https://ibb.co/1fbdxZd"}
-          alt={label}
-          className="mr-5"
-          height={32}
-          width={32}
-        />
+        
+          <Image
+            src={iconSrc}
+            alt={label}
+            className="mr-5"
+            height={32}
+            width={32}
+          />
 
         {label}
       </Link>

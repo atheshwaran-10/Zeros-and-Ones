@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ClerkLoading, ClerkLoaded, UserButton } from "@clerk/nextjs";
 import { Loader } from "lucide-react";
-import logo from "@/public/logo.png"
+import logo from "@/public/groot.png"
 import { cn } from "@/lib/utils";
 
 import { SidebarItem } from "./sidebar-item";
@@ -21,7 +21,7 @@ export const Sidebar = ({ className }: Props) => {
     >
       <Link href="/learn">
         <div className="pt-8 pl-4 pb-7 flex items-center gap-x-3">
-          <Image src={logo} height={40} width={40} alt="Mascot" />
+          <Image src={logo} height={60} width={60} alt="Mascot" />
           <h1 className="text-2xl font-extrabold text-sky-600 tracking-wide">
             Groot
           </h1>

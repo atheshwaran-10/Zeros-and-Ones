@@ -31,6 +31,7 @@ const nextConfig = {
       "easydrawingguides.com",
       "media.istockphoto.com",
       "ibb.co",
+      "i.ibb.co",
     ],
   },
 };
