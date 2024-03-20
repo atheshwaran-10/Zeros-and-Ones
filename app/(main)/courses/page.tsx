@@ -1,5 +1,6 @@
-import { getCourses, getUserProgress } from "@/db/queries";
 
+import { getCourses, getUserProgress } from "@/db/queries";
+import Speech from "@/components/Speech";
 import { List } from "./list";
 
 const CoursesPage = async () => {
@@ -23,6 +24,7 @@ const CoursesPage = async () => {
         courses={courses}
         activeCourseId={userProgress?.activeCourseId}
       />
+      {/* <Speech/> */}
     </div>
   );
 };
