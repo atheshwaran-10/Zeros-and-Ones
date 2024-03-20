@@ -26,7 +26,12 @@ const nextConfig = {
     ];
   },
   images: {
-    domains: ["t4.ftcdn.net", "easydrawingguides.com", "media.istockphoto.com"],
+    domains: [
+      "t4.ftcdn.net",
+      "easydrawingguides.com",
+      "media.istockphoto.com",
+      "ibb.co",
+    ],
   },
 };
 
